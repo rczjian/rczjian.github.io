@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Raymond Chan</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="assets/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500..700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/card.css" />
+  </head>
+
+  <body>
+    <header id="header-wrapper">
+      <div id="header">
+        <div class="intro-container">
+          <h1>Hello!</h1>
+          <span
+            >I'm Raymond, a Software Engineer currently working at DBS Bank in
+            Singapore.</span
+          >
+          <div class="icon-container">
+            <a
+              class="button icon-button"
+              title="LinkedIn"
+              href="https://www.linkedin.com/in/raymondchanzj"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 21 21">
+                <g
+                  stroke="none"
+                  stroke-width="1"
+                  fill-rule="evenodd"
+                  style="translate: -63px"
+                >
+                  <path
+                    d="M19.479,0 L1.583,0 C0.727,0 0,0.677 0,1.511 L0,19.488 C0,20.323 0.477,21 1.333,21 L19.229,21 C20.086,21 21,20.323 21,19.488 L21,1.511 C21,0.677 20.336,0 19.479,0"
+                  ></path>
+                  <path
+                    d="M82.479,0 L64.583,0 C63.727,0 63,0.677 63,1.511 L63,19.488 C63,20.323 63.477,21 64.333,21 L82.229,21 C83.086,21 84,20.323 84,19.488 L84,1.511 C84,0.677 83.336,0 82.479,0 Z M71,8 L73.827,8 L73.827,9.441 L73.858,9.441 C74.289,8.664 75.562,7.875 77.136,7.875 C80.157,7.875 81,9.479 81,12.45 L81,18 L78,18 L78,12.997 C78,11.667 77.469,10.5 76.227,10.5 C74.719,10.5 74,11.521 74,13.197 L74,18 L71,18 L71,8 Z M66,18 L69,18 L69,8 L66,8 L66,18 Z M69.375,4.5 C69.375,5.536 68.536,6.375 67.5,6.375 C66.464,6.375 65.625,5.536 65.625,4.5 C65.625,3.464 66.464,2.625 67.5,2.625 C68.536,2.625 69.375,3.464 69.375,4.5 Z"
+                    fill="inherit"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+            <a
+              class="button icon-button"
+              title="GitHub"
+              href="https://www.github.com/rczjian"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 16 16">
+                <path
+                  d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+                ></path>
+              </svg>
+            </a>
+            <a
+              class="button icon-button"
+              title="Email"
+              href="mailto:rczjian@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                />
+              </svg>
+            </a>
+            <a
+              class="button icon-button"
+              title="Resume"
+              href="https://docs.google.com/document/d/1mqKKYKeQjOYLNIHlnYPh6Y0h4U-V9MVAC75x62nZmTY/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm160-14.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"
+                  style="translate: 64px"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <img src="assets/avatar.jpg" class="avatar" />
+      </div>
+    </header>
+
+    <main id="main-wrapper">
+      <section id="timeline" class="main">
+        <h2>Timeline</h2>
+        <div class="timeline-stack">
+          <div class="timeline-item">
+            <img src="assets/dbs-logo.png" class="timeline-logo" />
+            <div class="timeline-content">
+              <h3>
+                <span>DBS Bank Ltd</span>
+                <span class="timeline-time">(Jul 2021 - Present)</span>
+              </h3>
+              <p class="timeline-headline">Full Stack Software Engineer</p>
+              <blockquote class="timeline-summary">
+                Post-graduation, I started my first full-time job at DBS. DBS is
+                one of the leading financial services groups in Asia and has a
+                presence in 19 markets globally.
+                <br /><br />
+
+                I joined DBS as a Graduate Associate under its Skill Enhancement
+                Education & Development (SEED) Programme, where I was placed in
+                the Branch & Self-Service Banking (BSSB) platform under Group
+                Technology & Operations (T&O). As part of my project teams, I
+                developed several branch app systems that simplify branch
+                operations and enable branch staff to perform their roles and
+                responsibilities more efficiently, for bank branches in both
+                Singapore and Hong Kong.
+              </blockquote>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <svg viewBox="-2 0 42 42" class="timeline-logo">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M19.2043 9.64274C19.7486 9.64274 20.2722 9.55634 20.7617 9.39679C21.5263 9.22773 22.316 9.19095 23.095 9.28889C23.9761 9.39968 24.8261 9.68067 25.5954 10.1155C26.3648 10.5504 27.0383 11.1305 27.5768 11.8222C28.0713 12.4575 28.443 13.1752 28.6741 13.94C28.7805 14.4068 28.9602 14.866 29.2175 15.3021C30.5777 17.6082 33.5902 18.3983 35.9461 17.0669C38.302 15.7355 39.1091 12.7868 37.749 10.4808C36.6136 8.55588 34.3269 7.68723 32.2319 8.22701L32.2297 8.21877C31.373 8.4492 30.4781 8.51081 29.5969 8.40002C28.7157 8.28923 27.8658 8.00824 27.0964 7.57337C26.3271 7.13849 25.6536 6.55838 25.1151 5.8667C24.5766 5.17503 24.1838 4.38556 23.9595 3.54411L23.9556 3.54516C23.384 1.50172 21.4733 0 19.2043 0C16.9356 0 15.0251 1.50137 14.4533 3.54443L14.4521 3.54411C14.2278 4.38556 13.835 5.17503 13.2965 5.8667C12.758 6.55838 12.0845 7.13849 11.3152 7.57337C10.5458 8.00824 9.69588 8.28923 8.81469 8.40002C7.9335 8.51081 7.03861 8.4492 6.18194 8.21877L6.18009 8.22564C4.08442 7.68463 1.79652 8.55321 0.660735 10.4788C-0.699446 12.7848 0.107745 15.7335 2.46365 17.0649C3.66761 17.7453 5.04306 17.8717 6.28182 17.5248C7.10803 17.3159 7.96769 17.2631 8.81469 17.3696C9.69588 17.4804 10.5458 17.7613 11.3152 18.1962C12.0845 18.6311 12.758 19.2112 13.2965 19.9029C13.808 20.5599 14.188 21.3051 14.4171 22.0993C14.9401 24.2121 16.885 25.7811 19.2043 25.7811C21.9247 25.7811 24.13 23.6225 24.13 20.9597C24.13 18.297 21.9247 16.1383 19.2043 16.1383C18.7112 16.1383 18.235 16.2093 17.7857 16.3413C16.9791 16.537 16.1419 16.5845 15.3167 16.4807C14.4355 16.3699 13.5855 16.0889 12.8162 15.654C12.0468 15.2192 11.3733 14.6391 10.8349 13.9474C10.7231 13.8038 10.6176 13.656 10.5186 13.5044C10.4222 13.3143 10.3715 13.1043 10.3715 12.8905C10.3715 12.6649 10.428 12.4433 10.5352 12.245C10.6285 12.1032 10.7276 11.9649 10.8321 11.8302C11.3701 11.1372 12.0433 10.5558 12.8128 10.1198C13.5823 9.68379 14.4327 9.40182 15.3145 9.29029C16.0915 9.19201 16.8793 9.2278 17.6422 9.39522C18.133 9.55578 18.6583 9.64274 19.2043 9.64274ZM37.7521 31.4424C39.1122 29.1363 38.305 26.1876 35.9491 24.8563C33.5932 23.5249 30.5808 24.315 29.2206 26.621C29.0032 26.9896 28.8412 27.3745 28.732 27.7667L28.7294 27.766C28.5051 28.6075 28.1123 29.3969 27.5738 30.0886C27.0353 30.7803 26.3619 31.3604 25.5925 31.7953C24.8231 32.2302 23.9732 32.5112 23.092 32.6219C22.2668 32.7257 21.4296 32.6783 20.6229 32.4826C20.1737 32.3505 19.6975 32.2796 19.2043 32.2796C18.7112 32.2796 18.235 32.3505 17.7857 32.4826C16.9791 32.6783 16.1419 32.7257 15.3167 32.6219C14.4355 32.5112 13.5855 32.2302 12.8162 31.7953C12.0468 31.3604 11.3733 30.7803 10.8349 30.0886C10.5319 29.6995 10.275 29.2794 10.0684 28.8364C9.99903 28.1838 9.79217 27.5345 9.43662 26.9289C8.07644 24.6123 5.0552 23.8136 2.68849 25.145C0.321772 26.4764 -0.494184 29.4337 0.865996 31.7503C2.22618 34.0669 5.24742 34.8656 7.61414 33.5342C7.65669 33.5103 7.69874 33.4858 7.74029 33.4608C8.09837 33.4493 8.45765 33.4659 8.81469 33.5108C9.69588 33.6216 10.5458 33.9026 11.3152 34.3375C12.0845 34.7723 12.758 35.3524 13.2965 36.0441C13.808 36.7011 14.188 37.4464 14.4171 38.2406C14.9402 40.3533 16.8851 41.9223 19.2043 41.9223C21.5236 41.9223 23.4685 40.3533 23.9916 38.2405C24.2207 37.4463 24.6007 36.7011 25.1122 36.0441C25.6507 35.3524 26.3241 34.7723 27.0935 34.3375C27.8629 33.9026 28.7128 33.6216 29.594 33.5108C30.4314 33.4055 31.2811 33.4559 32.0987 33.659C34.2301 34.2732 36.592 33.4091 37.7521 31.4424Z"
+                fill="#F24F83"
+              ></path>
+            </svg>
+            <div class="timeline-content">
+              <h3>
+                <span>Socean Labs</span>
+                <span class="timeline-time">(Apr 2022 - Present)</span>
+              </h3>
+              <p class="timeline-headline">
+                Full Stack Software Engineer (Part-time)
+              </p>
+              <blockquote class="timeline-summary">
+                While at DBS, I was approached to work with Socean Labs on a
+                part-time/ad hoc basis. Socean Labs is a Web3 startup that
+                develops positive-sum DeFi products on the Solana network.
+                <br /><br />
+
+                I've worked on various projects with Socean Labs, building
+                performant, aesthetic and user-friendly dApps involving liquid
+                staking, governance tokens, instant unstaking, NFTs, as well as
+                virtual spaces!
+              </blockquote>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <img src="assets/nus-logo.png" class="timeline-logo" />
+            <div class="timeline-content">
+              <h3>
+                <span>National University of Singapore</span>
+                <span class="timeline-time">(Aug 2017 - May 2021)</span>
+              </h3>
+              <p class="timeline-headline">
+                Bachelor of Social Sciences (Honours) · Major in Political
+                Science · Minor in Economics · First Class Honours
+              </p>
+              <blockquote class="timeline-summary">
+                I originally intended to study Psychology when I matriculated
+                into the Faculty of Arts and Social Sciences (FASS) at NUS, but
+                after taking the introductory course for Political Science, I
+                was hooked. I found the subject matter to be extremely novel and
+                interesting, and so ended up choosing to major in Political
+                Science instead.
+                <br /><br />
+
+                However, while I thoroughly enjoyed my course of study during my
+                4 years at NUS, I was not particularly interested in the career
+                prospects of my major. Since I had some prior experience with
+                programming and also excelled in some of the Computer Science
+                electives I had taken, I began considering a jump to tech. I
+                therefore borrowed and studied course notes from my friends in
+                Computer Science, worked on a few side projects for both the
+                practical experience and to pad my resume, and applied to
+                various tech roles and companies. Eventually, I received a
+                number of job offers, and the rest is history!
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="main">
+        <h2>Projects</h2>
+        <div class="card-container">
+          <div class="modal-wrapper">
+            <label class="button card" for="project-bonkboard">
+              <img
+                src="assets/bonkboard.png"
+                loading="lazy"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3 class="card-title">bonkboard.gg</h3>
+                <span class="card-subtitle">2023</span>
+                <div class="badge-container">
+                  <div class="badge">HTML5 Canvas</div>
+                  <div class="badge">Next.js</div>
+                  <div class="badge">React</div>
+                </div>
+                <p class="card-summary">
+                  A shared on-chain pixel art graffiti board where anyone can
+                  pay cryptocurrency to place pixels.
+                </p>
+              </div>
+            </label>
+            <input
+              type="checkbox"
+              id="project-bonkboard"
+              class="modal-toggle"
+            />
+            <div class="modal">
+              <label
+                class="modal-background-toggle"
+                for="project-bonkboard"
+              ></label>
+              <div class="modal-content">
+                <label class="modal-close" for="project-bonkboard"
+                  >&times;</label
+                >
+                <h1>bonkboard.gg</h1>
+                <div class="project-details">
+                  <img src="assets/bonkboard.png" loading="lazy" />
+                  <a
+                    title="bonkboard"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    href="https://bonkboard.gg/"
+                    >https://bonkboard.gg/</a
+                  >
+                  <div class="badge-container">
+                    <div class="badge">HTML5 Canvas</div>
+                    <div class="badge">Next.js</div>
+                    <div class="badge">React</div>
+                  </div>
+                  <div>
+                    Inspired by Reddit's r/place, bonkboard was hacked together
+                    in a couple of days during the rise of the meme coin BONK.
+                    However, to avoid the combative nature of the pixel wars
+                    common in r/place, we designed the board to have 500x500
+                    pixels, such that there was sufficient space for all to
+                    paint on. The board data was stored as a 750,000-length
+                    uint8 flat array, with each sequence of 3 corresponding to
+                    the RGB values of one pixel. Each set of painted pixels
+                    submitted was sent as a blockchain transaction, with the
+                    user paying a small amount of BONK per pixel painted.
+                    <br /><br />
+
+                    We submitted the project as an entry for the Solana
+                    Sandstorm virtual hackathon, where we won 4th place in the
+                    Bonking with Bonk! track. Various artists, creators and DAOs
+                    from the Solana community have since left their mark on the
+                    shared canvas.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-wrapper">
+            <label class="button card" for="project-telegram-analytics">
+              <img
+                src="assets/telegram-analytics.png"
+                loading="lazy"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3 class="card-title">Telegram Analytics</h3>
+                <span class="card-subtitle">2022</span>
+                <div class="badge-container">
+                  <div class="badge">Jupyter Notebook</div>
+                  <div class="badge">Python</div>
+                </div>
+                <p class="card-summary">
+                  An analytics tool that summarises and visualises Telegram chat
+                  data.
+                </p>
+              </div>
+            </label>
+            <input
+              type="checkbox"
+              id="project-telegram-analytics"
+              class="modal-toggle"
+            />
+            <div class="modal">
+              <label
+                class="modal-background-toggle"
+                for="project-telegram-analytics"
+              ></label>
+              <div class="modal-content">
+                <label class="modal-close" for="project-telegram-analytics"
+                  >&times;</label
+                >
+                <h1>Telegram Analytics</h1>
+                <div class="project-details">
+                  <img src="assets/telegram-analytics.png" loading="lazy" />
+                  <a
+                    title="Telegram Analytics"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    href="https://colab.research.google.com/github/rczjian/telegram-analysis/blob/master/analysis.ipynb"
+                    >https://colab.research.google.com/github/rczjian/telegram-analysis/blob/master/analysis.ipynb</a
+                  >
+                  <div class="badge-container">
+                    <div class="badge">Jupyter Notebook</div>
+                    <div class="badge">Python</div>
+                  </div>
+                  <div>
+                    I knew that Telegram allows users to download their chat
+                    data easily, so I thought that it would be cool to make good
+                    use of that data by building an analytics tool. This Jupyter
+                    Notebook offers users insights into who they text the most,
+                    how often and how regularly they text and call within each
+                    chat, as well as the main topics and keywords of each chat.
+                    <br /><br />
+
+                    It was a fun experience writing the scripts to parse, clean,
+                    analyse and visualise the chat data, and then sharing the
+                    results with friends and family.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-wrapper">
+            <label class="button card" for="project-just-one">
+              <img
+                src="assets/just-one.png"
+                loading="lazy"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3 class="card-title">Just One Online</h3>
+                <span class="card-subtitle">2022</span>
+                <div class="badge-container">
+                  <div class="badge">React</div>
+                  <div class="badge">WebSockets</div>
+                  <div class="badge">Node.js</div>
+                </div>
+                <p class="card-summary">
+                  An online version of the award-winning party game Just One.
+                </p>
+              </div>
+            </label>
+            <input type="checkbox" id="project-just-one" class="modal-toggle" />
+            <div class="modal">
+              <label
+                class="modal-background-toggle"
+                for="project-just-one"
+              ></label>
+              <div class="modal-content">
+                <label class="modal-close" for="project-just-one"
+                  >&times;</label
+                >
+                <h1>Just One Online</h1>
+                <div class="project-details">
+                  <img src="assets/just-one.png" loading="lazy" />
+                  <a
+                    title="Just One Online"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    href="https://just-one-game.vercel.app"
+                    >https://just-one-game.vercel.app</a
+                  >
+                  <div class="badge-container">
+                    <div class="badge">React</div>
+                    <div class="badge">WebSockets</div>
+                    <div class="badge">Node.js</div>
+                  </div>
+                  <div>
+                    My friends and I chanced upon this game at a board game cafe
+                    and we had hours of fun trying to give each other unique
+                    hints and guessing the right words. After that, I thought -
+                    why not make an online version of this game, so we can enjoy
+                    it anytime, anywhere? And so I built this project.
+                    <br /><br />
+
+                    I chose a simple, mobile-first user interface so that the
+                    game could truly be accessed anytime and anywhere. The game
+                    state was stored on the server side to ensure a single
+                    source of truth, and WebSockets were used to broadcast
+                    server state updates to all relevant clients without
+                    requiring client-side input.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-wrapper">
+            <label class="button card" for="project-reso-booking">
+              <img
+                src="assets/reso-booking.png"
+                loading="lazy"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3 class="card-title">Reso Booking System</h3>
+                <span class="card-subtitle">2021</span>
+                <div class="badge-container">
+                  <div class="badge">React</div>
+                  <div class="badge">Google Calendar API</div>
+                </div>
+                <p class="card-summary">
+                  A web application that facilitates the sharing of club
+                  resources within my university a cappella group, NUS
+                  Resonance.
+                </p>
+              </div>
+            </label>
+            <input
+              type="checkbox"
+              id="project-reso-booking"
+              class="modal-toggle"
+            />
+            <div class="modal">
+              <label
+                class="modal-background-toggle"
+                for="project-reso-booking"
+              ></label>
+              <div class="modal-content">
+                <label class="modal-close" for="project-reso-booking"
+                  >&times;</label
+                >
+                <h1>Reso Booking System</h1>
+                <div class="project-details">
+                  <img src="assets/reso-booking.png" loading="lazy" />
+                  <div class="badge-container">
+                    <div class="badge">React</div>
+                    <div class="badge">Google Calendar API</div>
+                  </div>
+                  <div>
+                    As part of concert preparation every year, my university a
+                    cappella club, NUS Resonance (i.e. Reso), has to share the
+                    sound system (microphones, mixer, speaker) among the
+                    numerous concert groups. The booking process used to be a
+                    very manual affair, where each and every group I/C had to
+                    approach the Resource Manager to request for specific
+                    practice timeslots, and the Resource Manager had to then
+                    review the requests, work out any conflicts with the
+                    relevant I/Cs, and then personally update the club's shared
+                    Google Calendar with the finalised bookings.
+                    <br /><br />
+
+                    During my year in the club's Executive Committee, my
+                    Resource Manager approached me with the idea to streamline
+                    and automate the process with this web application. Group
+                    I/Cs could easily submit a booking request with all the
+                    required information via the website, and could also see all
+                    existing pending and approved bookings, which reduced the
+                    number of clashing requests. The Resource Manager could log
+                    in via Google SSO to access the admin page, where they would
+                    be able to review all the pending requests at once.
+                    Automated email updates would be sent upon
+                    approval/rejection, and the shared Google Calendar would be
+                    updated accordingly too.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-wrapper">
+            <label class="button card" for="project-bridge-bot">
+              <img
+                src="assets/bridge-bot.png"
+                loading="lazy"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3 class="card-title">Floating Bridge Bot</h3>
+                <span class="card-subtitle">2020</span>
+                <div class="badge-container">
+                  <div class="badge">Python</div>
+                  <div class="badge">Telegram Bot API</div>
+                </div>
+                <p class="card-summary">
+                  A Telegram bot that facilitates the game of floating bridge
+                  (also known as Singaporean bridge).
+                </p>
+              </div>
+            </label>
+            <input
+              type="checkbox"
+              id="project-bridge-bot"
+              class="modal-toggle"
+            />
+            <div class="modal">
+              <label
+                class="modal-background-toggle"
+                for="project-bridge-bot"
+              ></label>
+              <div class="modal-content">
+                <label class="modal-close" for="project-bridge-bot"
+                  >&times;</label
+                >
+                <h1>Floating Bridge Bot</h1>
+                <div class="project-details">
+                  <img src="assets/bridge-bot.png" loading="lazy" />
+                  <div class="badge-container">
+                    <div class="badge">Python</div>
+                    <div class="badge">Telegram Bot API</div>
+                  </div>
+                  <div>
+                    During the COVID-19 pandemic, many of us moved online for
+                    our social interactions - we kept in touch with our friends
+                    and family via texts and calls, and had fun together playing
+                    games online. Since my friends and I used to play floating
+                    bridge in person, I thought to build a Telegram bot that
+                    could facilitate the game virtually.
+                    <br /><br />
+
+                    In order to ensure valid and standardised input for the
+                    game's backend, I took full advantage of Telegram's custom
+                    keyboard and inline keyboard functionalities to provide
+                    players with an exhaustive set of all their available input
+                    options, while rejecting any other input values. I also sent
+                    each player's pre-sorted hand via Telegram's custom keyboard
+                    API so they remain a secret to the other players.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="main">
+        <h2>Skills and competencies</h2>
+        <div class="icon-container skill-icon-container">
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 512 512">
+              <title>React.js</title>
+              <path
+                d="M418.2 177.2c-5.4-1.8-10.8-3.5-16.2-5.1.9-3.7 1.7-7.4 2.5-11.1 12.3-59.6 4.2-107.5-23.1-123.3-26.3-15.1-69.2.6-112.6 38.4-4.3 3.7-8.5 7.6-12.5 11.5-2.7-2.6-5.5-5.2-8.3-7.7-45.5-40.4-91.1-57.4-118.4-41.5-26.2 15.2-34 60.3-23 116.7 1.1 5.6 2.3 11.1 3.7 16.7-6.4 1.8-12.7 3.8-18.6 5.9C38.3 196.2 0 225.4 0 255.6c0 31.2 40.8 62.5 96.3 81.5 4.5 1.5 9 3 13.6 4.3-1.5 6-2.8 11.9-4 18-10.5 55.5-2.3 99.5 23.9 114.6 27 15.6 72.4-.4 116.6-39.1 3.5-3.1 7-6.3 10.5-9.7 4.4 4.3 9 8.4 13.6 12.4 42.8 36.8 85.1 51.7 111.2 36.6 27-15.6 35.8-62.9 24.4-120.5-.9-4.4-1.9-8.9-3-13.5 3.2-.9 6.3-1.9 9.4-2.9 57.7-19.1 99.5-50 99.5-81.7 0-30.3-39.4-59.7-93.8-78.4zM282.9 92.3c37.2-32.4 71.9-45.1 87.7-36 16.9 9.7 23.4 48.9 12.8 100.4-.7 3.4-1.4 6.7-2.3 10-22.2-5-44.7-8.6-67.3-10.6-13-18.6-27.2-36.4-42.6-53.1 3.9-3.7 7.7-7.2 11.7-10.7zM167.2 307.5c5.1 8.7 10.3 17.4 15.8 25.9-15.6-1.7-31.1-4.2-46.4-7.5 4.4-14.4 9.9-29.3 16.3-44.5 4.6 8.8 9.3 17.5 14.3 26.1zm-30.3-120.3c14.4-3.2 29.7-5.8 45.6-7.8-5.3 8.3-10.5 16.8-15.4 25.4-4.9 8.5-9.7 17.2-14.2 26-6.3-14.9-11.6-29.5-16-43.6zm27.4 68.9c6.6-13.8 13.8-27.3 21.4-40.6s15.8-26.2 24.4-38.9c15-1.1 30.3-1.7 45.9-1.7s31 .6 45.9 1.7c8.5 12.6 16.6 25.5 24.3 38.7s14.9 26.7 21.7 40.4c-6.7 13.8-13.9 27.4-21.6 40.8-7.6 13.3-15.7 26.2-24.2 39-14.9 1.1-30.4 1.6-46.1 1.6s-30.9-.5-45.6-1.4c-8.7-12.7-16.9-25.7-24.6-39s-14.8-26.8-21.5-40.6zm180.6 51.2c5.1-8.8 9.9-17.7 14.6-26.7 6.4 14.5 12 29.2 16.9 44.3-15.5 3.5-31.2 6.2-47 8 5.4-8.4 10.5-17 15.5-25.6zm14.4-76.5c-4.7-8.8-9.5-17.6-14.5-26.2-4.9-8.5-10-16.9-15.3-25.2 16.1 2 31.5 4.7 45.9 8-4.6 14.8-10 29.2-16.1 43.4zM256.2 118.3c10.5 11.4 20.4 23.4 29.6 35.8-19.8-.9-39.7-.9-59.5 0 9.8-12.9 19.9-24.9 29.9-35.8zM140.2 57c16.8-9.8 54.1 4.2 93.4 39 2.5 2.2 5 4.6 7.6 7-15.5 16.7-29.8 34.5-42.9 53.1-22.6 2-45 5.5-67.2 10.4-1.3-5.1-2.4-10.3-3.5-15.5-9.4-48.4-3.2-84.9 12.6-94zm-24.5 263.6c-4.2-1.2-8.3-2.5-12.4-3.9-21.3-6.7-45.5-17.3-63-31.2-10.1-7-16.9-17.8-18.8-29.9 0-18.3 31.6-41.7 77.2-57.6 5.7-2 11.5-3.8 17.3-5.5 6.8 21.7 15 43 24.5 63.6-9.6 20.9-17.9 42.5-24.8 64.5zm116.6 98c-16.5 15.1-35.6 27.1-56.4 35.3-11.1 5.3-23.9 5.8-35.3 1.3-15.9-9.2-22.5-44.5-13.5-92 1.1-5.6 2.3-11.2 3.7-16.7 22.4 4.8 45 8.1 67.9 9.8 13.2 18.7 27.7 36.6 43.2 53.4-3.2 3.1-6.4 6.1-9.6 8.9zm24.5-24.3c-10.2-11-20.4-23.2-30.3-36.3 9.6.4 19.5.6 29.5.6 10.3 0 20.4-.2 30.4-.7-9.2 12.7-19.1 24.8-29.6 36.4zm130.7 30c-.9 12.2-6.9 23.6-16.5 31.3-15.9 9.2-49.8-2.8-86.4-34.2-4.2-3.6-8.4-7.5-12.7-11.5 15.3-16.9 29.4-34.8 42.2-53.6 22.9-1.9 45.7-5.4 68.2-10.5 1 4.1 1.9 8.2 2.7 12.2 4.9 21.6 5.7 44.1 2.5 66.3zm18.2-107.5c-2.8.9-5.6 1.8-8.5 2.6-7-21.8-15.6-43.1-25.5-63.8 9.6-20.4 17.7-41.4 24.5-62.9 5.2 1.5 10.2 3.1 15 4.7 46.6 16 79.3 39.8 79.3 58 0 19.6-34.9 44.9-84.8 61.4zm-149.7-15c25.3 0 45.8-20.5 45.8-45.8s-20.5-45.8-45.8-45.8c-25.3 0-45.8 20.5-45.8 45.8s20.5 45.8 45.8 45.8z"
+              />
+            </svg>
+            <span>React.js</span>
+          </div>
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 180 180">
+              <title>Next.js</title>
+              <g>
+                <circle cx="90" cy="90" data-circle="true" r="90"></circle>
+                <path
+                  d="M149.508 157.52L69.142 54H54V125.97H66.1136V69.3836L139.999 164.845C143.333 162.614 146.509 160.165 149.508 157.52Z"
+                  fill="url(#:R0:paint0_linear_408_134)"
+                ></path>
+                <rect
+                  fill="url(#:R0:paint1_linear_408_134)"
+                  height="72"
+                  width="12"
+                  x="115"
+                  y="54"
+                ></rect>
+              </g>
+              <defs>
+                <linearGradient
+                  gradientUnits="userSpaceOnUse"
+                  id=":R0:paint0_linear_408_134"
+                  x1="109"
+                  x2="144.5"
+                  y1="116.5"
+                  y2="160.5"
+                >
+                  <stop stop-color="var(--theme-palette-00)"></stop>
+                  <stop
+                    offset="1"
+                    stop-color="var(--theme-palette-00)"
+                    stop-opacity="0"
+                  ></stop>
+                </linearGradient>
+                <linearGradient
+                  gradientUnits="userSpaceOnUse"
+                  id=":R0:paint1_linear_408_134"
+                  x1="121"
+                  x2="120.799"
+                  y1="54"
+                  y2="106.875"
+                >
+                  <stop stop-color="var(--theme-palette-00)"></stop>
+                  <stop
+                    offset="1"
+                    stop-color="var(--theme-palette-00)"
+                    stop-opacity="0"
+                  ></stop>
+                </linearGradient>
+              </defs>
+            </svg>
+            <span>Next.js</span>
+          </div>
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 384 512">
+              <title>HTML5</title>
+              <path
+                d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"
+              />
+            </svg>
+            <span>HTML5</span>
+          </div>
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 384 512">
+              <title>CSS3</title>
+              <path
+                d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"
+              />
+            </svg>
+            <span>CSS3</span>
+          </div>
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 448 512">
+              <title>JavaScript</title>
+              <path
+                d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"
+              />
+            </svg>
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 27 26">
+              <title>TypeScript</title>
+              <path
+                d="m.98608 0h24.32332c.5446 0 .9861.436522.9861.975v24.05c0 .5385-.4415.975-.9861.975h-24.32332c-.544597 0-.98608-.4365-.98608-.975v-24.05c0-.538478.441483-.975.98608-.975zm13.63142 13.8324v-2.1324h-9.35841v2.1324h3.34111v9.4946h2.6598v-9.4946zm1.0604 9.2439c.4289.2162.9362.3784 1.5218.4865.5857.1081 1.2029.1622 1.8518.1622.6324 0 1.2331-.0595 1.8023-.1784.5691-.1189 1.0681-.3149 1.497-.5879s.7685-.6297 1.0187-1.0703.3753-.9852.3753-1.6339c0-.4703-.0715-.8824-.2145-1.2365-.1429-.3541-.3491-.669-.6186-.9447-.2694-.2757-.5925-.523-.9692-.7419s-.8014-.4257-1.2743-.6203c-.3465-.1406-.6572-.2771-.9321-.4095-.275-.1324-.5087-.2676-.7011-.4054-.1925-.1379-.3409-.2838-.4454-.4379-.1045-.154-.1567-.3284-.1567-.523 0-.1784.0467-.3392.1402-.4824.0935-.1433.2254-.2663.3959-.369s.3794-.1824.6269-.2392c.2474-.0567.5224-.0851.8248-.0851.22 0 .4523.0162.697.0486.2447.0325.4908.0825.7382.15.2475.0676.4881.1527.7218.2555.2337.1027.4495.2216.6475.3567v-2.4244c-.4015-.1514-.84-.2636-1.3157-.3365-.4756-.073-1.0214-.1095-1.6373-.1095-.6268 0-1.2207.0662-1.7816.1987-.5609.1324-1.0544.3392-1.4806.6203s-.763.6392-1.0104 1.0743c-.2475.4352-.3712.9555-.3712 1.5609 0 .7731.2268 1.4326.6805 1.9785.4537.546 1.1424 1.0082 2.0662 1.3866.363.146.7011.2892 1.0146.4298.3134.1405.5842.2865.8124.4378.2282.1514.4083.3162.5403.4946s.198.3811.198.6082c0 .1676-.0413.323-.1238.4662-.0825.1433-.2076.2676-.3753.373s-.3766.1879-.6268.2473c-.2502.0595-.5431.0892-.8785.0892-.5719 0-1.1383-.0986-1.6992-.2959-.5608-.1973-1.0805-.4933-1.5589-.8879z"
+              ></path>
+            </svg>
+            <span>TypeScript</span>
+          </div>
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 384 512">
+              <title>Java</title>
+              <path
+                d="M277.74 312.9c9.8-6.7 23.4-12.5 23.4-12.5s-38.7 7-77.2 10.2c-47.1 3.9-97.7 4.7-123.1 1.3-60.1-8 33-30.1 33-30.1s-36.1-2.4-80.6 19c-52.5 25.4 130 37 224.5 12.1zm-85.4-32.1c-19-42.7-83.1-80.2 0-145.8C296 53.2 242.84 0 242.84 0c21.5 84.5-75.6 110.1-110.7 162.6-23.9 35.9 11.7 74.4 60.2 118.2zm114.6-176.2c.1 0-175.2 43.8-91.5 140.2 24.7 28.4-6.5 54-6.5 54s62.7-32.4 33.9-72.9c-26.9-37.8-47.5-56.6 64.1-121.3zm-6.1 270.5a12.19 12.19 0 0 1-2 2.6c128.3-33.7 81.1-118.9 19.8-97.3a17.33 17.33 0 0 0-8.2 6.3 70.45 70.45 0 0 1 11-3c31-6.5 75.5 41.5-20.6 91.4zM348 437.4s14.5 11.9-15.9 21.2c-57.9 17.5-240.8 22.8-291.6.7-18.3-7.9 16-19 26.8-21.3 11.2-2.4 17.7-2 17.7-2-20.3-14.3-131.3 28.1-56.4 40.2C232.84 509.4 401 461.3 348 437.4zM124.44 396c-78.7 22 47.9 67.4 148.1 24.5a185.89 185.89 0 0 1-28.2-13.8c-44.7 8.5-65.4 9.1-106 4.5-33.5-3.8-13.9-15.2-13.9-15.2zm179.8 97.2c-78.7 14.8-175.8 13.1-233.3 3.6 0-.1 11.8 9.7 72.4 13.6 92.2 5.9 233.8-3.3 237.1-46.9 0 0-6.4 16.5-76.2 29.7zM260.64 353c-59.2 11.4-93.5 11.1-136.8 6.6-33.5-3.5-11.6-19.7-11.6-19.7-86.8 28.8 48.2 61.4 169.5 25.9a60.37 60.37 0 0 1-21.1-12.8z"
+              />
+            </svg>
+            <span>Java</span>
+          </div>
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 448 512">
+              <title>Node.js</title>
+              <path
+                d="M224 508c-6.7 0-13.5-1.8-19.4-5.2l-61.7-36.5c-9.2-5.2-4.7-7-1.7-8 12.3-4.3 14.8-5.2 27.9-12.7 1.4-.8 3.2-.5 4.6.4l47.4 28.1c1.7 1 4.1 1 5.7 0l184.7-106.6c1.7-1 2.8-3 2.8-5V149.3c0-2.1-1.1-4-2.9-5.1L226.8 37.7c-1.7-1-4-1-5.7 0L36.6 144.3c-1.8 1-2.9 3-2.9 5.1v213.1c0 2 1.1 4 2.9 4.9l50.6 29.2c27.5 13.7 44.3-2.4 44.3-18.7V167.5c0-3 2.4-5.3 5.4-5.3h23.4c2.9 0 5.4 2.3 5.4 5.3V378c0 36.6-20 57.6-54.7 57.6-10.7 0-19.1 0-42.5-11.6l-48.4-27.9C8.1 389.2.7 376.3.7 362.4V149.3c0-13.8 7.4-26.8 19.4-33.7L204.6 9c11.7-6.6 27.2-6.6 38.8 0l184.7 106.7c12 6.9 19.4 19.8 19.4 33.7v213.1c0 13.8-7.4 26.7-19.4 33.7L243.4 502.8c-5.9 3.4-12.6 5.2-19.4 5.2zm149.1-210.1c0-39.9-27-50.5-83.7-58-57.4-7.6-63.2-11.5-63.2-24.9 0-11.1 4.9-25.9 47.4-25.9 37.9 0 51.9 8.2 57.7 33.8.5 2.4 2.7 4.2 5.2 4.2h24c1.5 0 2.9-.6 3.9-1.7s1.5-2.6 1.4-4.1c-3.7-44.1-33-64.6-92.2-64.6-52.7 0-84.1 22.2-84.1 59.5 0 40.4 31.3 51.6 81.8 56.6 60.5 5.9 65.2 14.8 65.2 26.7 0 20.6-16.6 29.4-55.5 29.4-48.9 0-59.6-12.3-63.2-36.6-.4-2.6-2.6-4.5-5.3-4.5h-23.9c-3 0-5.3 2.4-5.3 5.3 0 31.1 16.9 68.2 97.8 68.2 58.4-.1 92-23.2 92-63.4z"
+              />
+            </svg>
+            <span>Node.js</span>
+          </div>
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 448 512">
+              <title>Python</title>
+              <path
+                d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"
+              />
+            </svg>
+            <span>Python</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="icon-container">
+        <a
+          class="button icon-button"
+          title="LinkedIn"
+          href="https://www.linkedin.com/in/raymondchanzj"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg viewBox="0 0 21 21">
+            <g
+              stroke="none"
+              stroke-width="1"
+              fill-rule="evenodd"
+              style="translate: -63px"
+            >
+              <path
+                d="M19.479,0 L1.583,0 C0.727,0 0,0.677 0,1.511 L0,19.488 C0,20.323 0.477,21 1.333,21 L19.229,21 C20.086,21 21,20.323 21,19.488 L21,1.511 C21,0.677 20.336,0 19.479,0"
+              ></path>
+              <path
+                d="M82.479,0 L64.583,0 C63.727,0 63,0.677 63,1.511 L63,19.488 C63,20.323 63.477,21 64.333,21 L82.229,21 C83.086,21 84,20.323 84,19.488 L84,1.511 C84,0.677 83.336,0 82.479,0 Z M71,8 L73.827,8 L73.827,9.441 L73.858,9.441 C74.289,8.664 75.562,7.875 77.136,7.875 C80.157,7.875 81,9.479 81,12.45 L81,18 L78,18 L78,12.997 C78,11.667 77.469,10.5 76.227,10.5 C74.719,10.5 74,11.521 74,13.197 L74,18 L71,18 L71,8 Z M66,18 L69,18 L69,8 L66,8 L66,18 Z M69.375,4.5 C69.375,5.536 68.536,6.375 67.5,6.375 C66.464,6.375 65.625,5.536 65.625,4.5 C65.625,3.464 66.464,2.625 67.5,2.625 C68.536,2.625 69.375,3.464 69.375,4.5 Z"
+                fill="inherit"
+              ></path>
+            </g>
+          </svg>
+        </a>
+        <a
+          class="button icon-button"
+          title="GitHub"
+          href="https://www.github.com/rczjian"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg viewBox="0 0 16 16">
+            <path
+              d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+            ></path>
+          </svg>
+        </a>
+        <a
+          class="button icon-button"
+          title="Email"
+          href="mailto:rczjian@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg viewBox="0 0 512 512">
+            <path
+              d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+            />
+          </svg>
+        </a>
+        <a
+          class="button icon-button"
+          title="Resume"
+          href="https://docs.google.com/document/d/1mqKKYKeQjOYLNIHlnYPh6Y0h4U-V9MVAC75x62nZmTY/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg viewBox="0 0 512 512">
+            <path
+              d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm160-14.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"
+              style="translate: 64px"
+            />
+          </svg>
+        </a>
+        <a
+          class="button icon-button"
+          title="Source code"
+          href="https://github.com/rczjian/rczjian.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg viewBox="0 -64 640 640">
+            <path
+              d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"
+            />
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
