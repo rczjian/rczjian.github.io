@@ -75,7 +75,7 @@ h3 {
   background-color: var(--theme-palette-00);
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .main {
@@ -85,7 +85,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.5rem;
   width: -webkit-fill-available;
   width: -moz-available;
 }
@@ -93,7 +93,7 @@ h3 {
 .timeline-stack {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .timeline-item {
@@ -127,6 +127,13 @@ h3 {
   padding: 0.25rem 0 0.25rem 1rem;
   text-align: left;
   line-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.timeline-summary p {
+  margin: 0;
 }
 
 .badge-container {
@@ -152,12 +159,17 @@ h3 {
   display: block;
   margin-top: 0.25rem;
   word-wrap: break-word;
+  transition: color 0.2s linear;
+}
+
+.project-details a:hover {
+  color: var(--theme-palette-12);
 }
 
 .project-details .badge-container {
   border-radius: 0.25rem;
   max-width: 100%;
-  margin: 0.5rem 0 1rem;
+  margin: 0.5rem 0 1.25rem;
 }
 
 .project-details .badge {

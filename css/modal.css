@@ -50,6 +50,7 @@
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+  transition: color 0.2s linear;
 }
 
 .modal-close:hover {

@@ -39,10 +39,27 @@
   width: 28px;
   background: 0;
   fill: var(--theme-palette-07);
+  position: relative;
+  transition: fill 0.2s linear;
 }
 
 .icon-button:focus,
 .icon-button:hover {
   background-image: none;
   fill: var(--theme-palette-10);
+}
+
+.icon-tooltip {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1rem;
+  font-size: 75%;
+  color: var(--theme-palette-10);
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
+.icon-button:hover .icon-tooltip {
+  opacity: 1;
 }
