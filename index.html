@@ -1,28 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Raymond Chan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Raymond Chan Zi Jian</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Hi, I'm Raymond Chan Zi Jian - software engineer, curious coder and lifelong learner. Always up for a good coding challenge and down to build something cool!"
+    />
     <meta
       name="google-site-verification"
       content="fw11ie_gdBO2mL2BeAGHtc85dVj2ux1xu98D4wo31Gg"
     />
 
     <link rel="icon" href="assets/favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500..700"
-      rel="stylesheet"
-    />
 
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/button.css" />
     <link rel="stylesheet" href="css/modal.css" />
     <link rel="stylesheet" href="css/card.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Raymond Chan Zi Jian",
+        "url": "https://rczjian.github.io",
+        "email": "rczjian@gmail.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/raymondchanzj",
+          "https://github.com/rczjian"
+        ],
+        "jobTitle": "Software Engineer"
+      }
+    </script>
   </head>
 
   <body>
@@ -101,7 +123,14 @@
             </a>
           </div>
         </div>
-        <img src="assets/avatar.jpg" class="avatar" />
+        <img
+          src="assets/avatar.webp"
+          class="avatar"
+          alt="Raymond Chan Zi Jian - Software Engineer"
+          height="256"
+          width="256"
+          fetchpriority="high"
+        />
       </div>
     </header>
 
@@ -110,7 +139,11 @@
         <h2>Timeline</h2>
         <div class="timeline-stack">
           <div class="timeline-item">
-            <img src="assets/marketnode-logo.png" class="timeline-logo" />
+            <img
+              src="assets/marketnode-logo.webp"
+              class="timeline-logo"
+              alt="Marketnode Logo"
+            />
             <div class="timeline-content">
               <h3>
                 <span>Marketnode Pte Ltd</span>
@@ -138,7 +171,11 @@
             </div>
           </div>
           <div class="timeline-item">
-            <img src="assets/dbs-logo.png" class="timeline-logo" />
+            <img
+              src="assets/dbs-logo.webp"
+              class="timeline-logo"
+              alt="DBS Bank Logo"
+            />
             <div class="timeline-content">
               <h3>
                 <span>DBS Bank Ltd</span>
@@ -165,7 +202,11 @@
             </div>
           </div>
           <div class="timeline-item">
-            <svg viewBox="-2 0 42 42" class="timeline-logo">
+            <svg
+              viewBox="-2 0 42 42"
+              class="timeline-logo"
+              aria-label="Socean Labs Logo"
+            >
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -197,7 +238,11 @@
             </div>
           </div>
           <div class="timeline-item">
-            <img src="assets/nus-logo.png" class="timeline-logo" />
+            <img
+              src="assets/nus-logo.webp"
+              class="timeline-logo"
+              alt="National University of Singapore Logo"
+            />
             <div class="timeline-content">
               <h3>
                 <span>National University of Singapore</span>
@@ -241,9 +286,10 @@
           <div class="modal-wrapper">
             <label class="button card" for="project-bonkboard">
               <img
-                src="assets/bonkboard.png"
+                src="assets/bonkboard.webp"
                 loading="lazy"
                 class="card-image"
+                alt="bonkboard.gg"
               />
               <div class="card-content">
                 <h3 class="card-title">bonkboard.gg</h3>
@@ -264,7 +310,7 @@
               id="project-bonkboard"
               class="modal-toggle"
             />
-            <div class="modal">
+            <div class="modal" role="dialog" aria-modal="true">
               <label
                 class="modal-background-toggle"
                 for="project-bonkboard"
@@ -273,9 +319,13 @@
                 <label class="modal-close" for="project-bonkboard"
                   >&times;</label
                 >
-                <h1>bonkboard.gg</h1>
+                <h3>bonkboard.gg</h3>
                 <div class="project-details">
-                  <img src="assets/bonkboard.png" loading="lazy" />
+                  <img
+                    src="assets/bonkboard.webp"
+                    loading="lazy"
+                    alt="bonkboard.gg"
+                  />
                   <a
                     title="bonkboard"
                     target="_blank"
@@ -316,9 +366,10 @@
           <div class="modal-wrapper">
             <label class="button card" for="project-telegram-analytics">
               <img
-                src="assets/telegram-analytics.png"
+                src="assets/telegram-analytics.webp"
                 loading="lazy"
                 class="card-image"
+                alt="Telegram Analytics"
               />
               <div class="card-content">
                 <h3 class="card-title">Telegram Analytics</h3>
@@ -338,7 +389,7 @@
               id="project-telegram-analytics"
               class="modal-toggle"
             />
-            <div class="modal">
+            <div class="modal" role="dialog" aria-modal="true">
               <label
                 class="modal-background-toggle"
                 for="project-telegram-analytics"
@@ -347,9 +398,13 @@
                 <label class="modal-close" for="project-telegram-analytics"
                   >&times;</label
                 >
-                <h1>Telegram Analytics</h1>
+                <h3>Telegram Analytics</h3>
                 <div class="project-details">
-                  <img src="assets/telegram-analytics.png" loading="lazy" />
+                  <img
+                    src="assets/telegram-analytics.webp"
+                    loading="lazy"
+                    alt="Telegram Analytics"
+                  />
                   <a
                     title="Telegram Analytics"
                     target="_blank"
@@ -383,9 +438,10 @@
           <div class="modal-wrapper">
             <label class="button card" for="project-just-one">
               <img
-                src="assets/just-one.png"
+                src="assets/just-one.webp"
                 loading="lazy"
                 class="card-image"
+                alt="Just One Online"
               />
               <div class="card-content">
                 <h3 class="card-title">Just One Online</h3>
@@ -401,7 +457,7 @@
               </div>
             </label>
             <input type="checkbox" id="project-just-one" class="modal-toggle" />
-            <div class="modal">
+            <div class="modal" role="dialog" aria-modal="true">
               <label
                 class="modal-background-toggle"
                 for="project-just-one"
@@ -410,9 +466,13 @@
                 <label class="modal-close" for="project-just-one"
                   >&times;</label
                 >
-                <h1>Just One Online</h1>
+                <h3>Just One Online</h3>
                 <div class="project-details">
-                  <img src="assets/just-one.png" loading="lazy" />
+                  <img
+                    src="assets/just-one.webp"
+                    loading="lazy"
+                    alt="Just One Online"
+                  />
                   <a
                     title="Just One Online"
                     target="_blank"
@@ -449,9 +509,10 @@
           <div class="modal-wrapper">
             <label class="button card" for="project-reso-booking">
               <img
-                src="assets/reso-booking.png"
+                src="assets/reso-booking.webp"
                 loading="lazy"
                 class="card-image"
+                alt="Reso Booking System"
               />
               <div class="card-content">
                 <h3 class="card-title">Reso Booking System</h3>
@@ -472,7 +533,7 @@
               id="project-reso-booking"
               class="modal-toggle"
             />
-            <div class="modal">
+            <div class="modal" role="dialog" aria-modal="true">
               <label
                 class="modal-background-toggle"
                 for="project-reso-booking"
@@ -481,9 +542,13 @@
                 <label class="modal-close" for="project-reso-booking"
                   >&times;</label
                 >
-                <h1>Reso Booking System</h1>
+                <h3>Reso Booking System</h3>
                 <div class="project-details">
-                  <img src="assets/reso-booking.png" loading="lazy" />
+                  <img
+                    src="assets/reso-booking.webp"
+                    loading="lazy"
+                    alt="Reso Booking System"
+                  />
                   <div class="badge-container">
                     <div class="badge">React</div>
                     <div class="badge">Google Calendar API</div>
@@ -522,9 +587,10 @@
           <div class="modal-wrapper">
             <label class="button card" for="project-bridge-bot">
               <img
-                src="assets/bridge-bot.png"
+                src="assets/bridge-bot.webp"
                 loading="lazy"
                 class="card-image"
+                alt="Floating Bridge Bot"
               />
               <div class="card-content">
                 <h3 class="card-title">Floating Bridge Bot</h3>
@@ -544,7 +610,7 @@
               id="project-bridge-bot"
               class="modal-toggle"
             />
-            <div class="modal">
+            <div class="modal" role="dialog" aria-modal="true">
               <label
                 class="modal-background-toggle"
                 for="project-bridge-bot"
@@ -553,9 +619,13 @@
                 <label class="modal-close" for="project-bridge-bot"
                   >&times;</label
                 >
-                <h1>Floating Bridge Bot</h1>
+                <h3>Floating Bridge Bot</h3>
                 <div class="project-details">
-                  <img src="assets/bridge-bot.png" loading="lazy" />
+                  <img
+                    src="assets/bridge-bot.webp"
+                    loading="lazy"
+                    alt="Floating Bridge Bot"
+                  />
                   <div class="badge-container">
                     <div class="badge">Python</div>
                     <div class="badge">Telegram Bot API</div>
