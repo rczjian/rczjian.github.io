@@ -284,6 +284,99 @@
         <h2>Projects</h2>
         <div class="card-container">
           <div class="modal-wrapper">
+            <label class="button card" for="project-reso-website">
+              <img
+                src="assets/reso-website.webp"
+                loading="lazy"
+                class="card-image"
+                alt="NUS Resonance Website"
+              />
+              <div class="card-content">
+                <h3 class="card-title">NUS Resonance Website</h3>
+                <span class="card-subtitle">2025</span>
+                <div class="badge-container">
+                  <div class="badge">Next.js</div>
+                  <div class="badge">Server Actions</div>
+                  <div class="badge">Search Engine Optimisation</div>
+                </div>
+                <p class="card-summary">
+                  An organisation website to promote the club's services and
+                  activities to the public, with a members-only portal for
+                  exclusive resources and information.
+                </p>
+              </div>
+            </label>
+            <input
+              type="checkbox"
+              id="project-reso-website"
+              class="modal-toggle"
+            />
+            <div
+              class="modal"
+              role="dialog"
+              aria-label="NUS Resonance Website"
+              aria-modal="true"
+            >
+              <label
+                class="modal-background-toggle"
+                for="project-reso-website"
+              ></label>
+              <div class="modal-content">
+                <label class="modal-close" for="project-reso-website"
+                  >&times;</label
+                >
+                <h3>NUS Resonance Website</h3>
+                <div class="project-details">
+                  <img
+                    src="assets/reso-website.webp"
+                    loading="lazy"
+                    alt="NUS Resonance Website"
+                  />
+                  <a
+                    title="NUS Resonance Website"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    href="https://www.nusresonance.com"
+                    >https://www.nusresonance.com</a
+                  >
+                  <div class="badge-container">
+                    <div class="badge">Next.js</div>
+                    <div class="badge">Server Actions</div>
+                    <div class="badge">Search Engine Optimisation</div>
+                  </div>
+                  <div>
+                    In July 2024, I was approached by the incoming Executive
+                    Committee to design and build the club website. There was an
+                    existing site at the current domain, but the content was
+                    extremely outdated - more than 15 years old! The idea was to
+                    modernise, update and expand the website's offerings. It
+                    would have more public-facing content, to engage potential
+                    members, clients and supporters; as well as a members-only
+                    portal, for access to exclusive resources and information.
+                    <br /><br />
+                    The defining feature of the website is that almost all of
+                    the pages can be updated via a Google Sheets spreadsheet - a
+                    universal, straightforward and foolproof platform that all
+                    students have used before, thereby enabling non-technical
+                    contributors to update the site's content regularly and
+                    indefinitely with no code at all. To improve performance and
+                    avoid issues upstream such as rate-limiting, the spreadsheet
+                    content is cached until a site maintainer dispatches a cache
+                    purge server action via the in-built admin portal.
+                    <br /><br />
+                    I also built the site with responsive design and search
+                    engine optimisation in mind in order to boost the club's
+                    visibility and marketing reach. This included implementing
+                    mobile-first design, server-side rendering, open graph meta
+                    tags, JSON-LD structured data and other best practices.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-wrapper">
             <label class="button card" for="project-bonkboard">
               <img
                 src="assets/bonkboard.webp"
@@ -310,7 +403,12 @@
               id="project-bonkboard"
               class="modal-toggle"
             />
-            <div class="modal" role="dialog" aria-modal="true">
+            <div
+              class="modal"
+              role="dialog"
+              aria-label="bonkboard.gg"
+              aria-modal="true"
+            >
               <label
                 class="modal-background-toggle"
                 for="project-bonkboard"
@@ -326,14 +424,6 @@
                     loading="lazy"
                     alt="bonkboard.gg"
                   />
-                  <a
-                    title="bonkboard"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="project-link"
-                    href="https://bonkboard.gg/"
-                    >https://bonkboard.gg/</a
-                  >
                   <div class="badge-container">
                     <div class="badge">HTML5 Canvas</div>
                     <div class="badge">Next.js</div>
@@ -389,7 +479,12 @@
               id="project-telegram-analytics"
               class="modal-toggle"
             />
-            <div class="modal" role="dialog" aria-modal="true">
+            <div
+              class="modal"
+              role="dialog"
+              aria-label="Telegram Analytics"
+              aria-modal="true"
+            >
               <label
                 class="modal-background-toggle"
                 for="project-telegram-analytics"
@@ -457,7 +552,12 @@
               </div>
             </label>
             <input type="checkbox" id="project-just-one" class="modal-toggle" />
-            <div class="modal" role="dialog" aria-modal="true">
+            <div
+              class="modal"
+              role="dialog"
+              aria-label="Just One Online"
+              aria-modal="true"
+            >
               <label
                 class="modal-background-toggle"
                 for="project-just-one"
@@ -533,7 +633,12 @@
               id="project-reso-booking"
               class="modal-toggle"
             />
-            <div class="modal" role="dialog" aria-modal="true">
+            <div
+              class="modal"
+              role="dialog"
+              aria-label="Reso Booking System"
+              aria-modal="true"
+            >
               <label
                 class="modal-background-toggle"
                 for="project-reso-booking"
@@ -610,7 +715,12 @@
               id="project-bridge-bot"
               class="modal-toggle"
             />
-            <div class="modal" role="dialog" aria-modal="true">
+            <div
+              class="modal"
+              role="dialog"
+              aria-label="Floating Bridge Bot"
+              aria-modal="true"
+            >
               <label
                 class="modal-background-toggle"
                 for="project-bridge-bot"
